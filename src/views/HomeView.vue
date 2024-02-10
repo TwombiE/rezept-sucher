@@ -11,10 +11,12 @@
   <script>
   import { defineComponent } from 'vue';
   import RecipeItem from '@/components/RecipeItem.vue';
+  import home from '@/components/RecipeItem.vue';
   
   export default defineComponent({
     components: {
-      RecipeItem
+      RecipeItem,
+      home
     },
     data() {
       return {
