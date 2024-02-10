@@ -11,7 +11,7 @@
   <script>
   import { defineComponent } from 'vue';
   import RecipeItem from '@/components/RecipeItem.vue';
-  import home from '@/components/RecipeItem.vue';
+  import home from '@/router/index.ts';
   
   export default defineComponent({
     components: {
